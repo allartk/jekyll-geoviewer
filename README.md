@@ -50,11 +50,11 @@ GeoMap extends ol.map, extra methods:
 
 object is validated with https://www.npmjs.com/package/prop-types
 
-object:
+object (van yaml met jsonify):
 
 {
-  
- layers [
+
+layers [
 {
 
         }

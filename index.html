@@ -1,0 +1,14 @@
+---
+layout: map
+title: Home
+---
+
+<div id="map" class="map"></div>
+
+<script>
+  var mapconfig = {{ site.data.basemap|jsonify }}
+</script>
+<script src="assets/js/map.js"></script>
+<script>
+  createMap(mapconfig);
+</script>
